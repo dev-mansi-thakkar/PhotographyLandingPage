@@ -1,0 +1,43 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption-custom {
+    position: absolute;
+    top: 150px;
+    left: 110px;
+    right: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption-custom h5 {
+    font-size: 2.5rem;
+    /* Increased font size */
+    font-weight: bold;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: auto;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+
+#testimonials .carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+    filter: invert(1);
+    margin-top: -400px;
+}
+
+#testimonials .carousel-indicators {
+    margin-bottom: 220px;
+}
